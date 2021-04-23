@@ -6,7 +6,7 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
-![alt text](https://raw.githubusercontent.com/StuMcA/spacey/main/client/src/assets/screenshot.png "Screenshot")
+![alt text](https://raw.githubusercontent.com/alexkinsey/spacey/main/client/src/assets/screenshot.png "Screenshot")
 
 -----------------------------------------------------------------------------
 
