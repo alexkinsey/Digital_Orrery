@@ -50,20 +50,25 @@ h3,
 p {
   margin: 0;
 }
+h3 {
+  width: fit-content;
+}
+span {
+  font-size: 0.7em;
+  font-style: italic;
+  width: fit-content;
+}
 
 .hover-box {
   width: 250px;
   display: none;
-  color: rgb(255, 255, 255);
   position: relative;
   top: 100%;
   cursor: pointer;
-  z-index: 999;
 }
 
 .planet:hover {
-  box-shadow: 0 0 30px gold;
-  z-index: 999;
+  box-shadow: 0 0 30px rgb(255, 226, 199);
   transition: 0.3s linear 0s;
 }
 
@@ -75,16 +80,60 @@ p {
   display: none;
 }
 
-h3 {
-  width: fit-content;
+.active {
+  width: 250px !important;
+  height: 250px !important;
 }
 
-span {
-  font-size: 0.7em;
-  font-style: italic;
-  width: fit-content;
+.active .hover-box {
+  padding: 1rem ;
+  display: block;
+  transition: 1s ease-in-out 0s;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
 }
 
+.active .hover-box * {
+  display: block;
+}
+
+.planet {
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(0.95);
+}
+#mercury {
+  background-color: rgb(255, 197, 5);
+  background: url(../../assets/Planets/CartoonPlanets/Mercury.jpg);
+  background-size: 100% 100%;
+}
+#venus {
+  background-color: rgb(188, 143, 58);
+  background: url(../../assets/Planets/CartoonPlanets/Venus.jpg);
+  background-size: 100% 100%;
+}
+#earth {
+  background-color: rgb(45, 45, 255);
+  /* box-shadow: 0 0 10px 1px #0ff; */
+  background: url(../../assets/Planets/CartoonPlanets/Earth.jpg);
+  background-size: 100% 100%;
+}
+#mars {
+  background: rgb(139, 14, 14);
+  background: url(../../assets/Planets/CartoonPlanets/Mars.jpg);
+  background-size: 100% 100%;
+}
+#jupiter {
+  background-color: rgb(255, 128, 0);
+  background: url(../../assets/Planets/CartoonPlanets/Jupiter.jpg);
+  background-size: 100% 100%;
+}
+
+#saturn {
+  background-color: rgb(255, 212, 94);
+  background: url(../../assets/Planets/CartoonPlanets/Saturn.jpg);
+  background-size: 100% 100%;
+}
 #ring-container {
   display: flex;
   flex-direction: column;
@@ -94,7 +143,6 @@ span {
   position: absolute;
   bottom: -2px;
 }
-
 #rings {
   background: url(../../assets/Planets/SaturnRing.png);
   background-size: 100% 100%;
@@ -105,5 +153,19 @@ span {
   pointer-events: none;
 }
 
-
+#uranus {
+  background-color: rgb(218, 218, 255);
+  background: url(../../assets/Planets/CartoonPlanets/Uranus.jpg);
+  background-size: 100% 100%;
+}
+#neptune {
+  background-color: rgb(80, 80, 203);
+  background: url(../../assets/Planets/CartoonPlanets/Neptune.jpg);
+  background-size: 100% 100%;
+}
+#pluto {
+  background-color: grey;
+  background: url(../../assets/Planets/CartoonPlanets/Pluto.jpg);
+  background-size: 100% 100%;
+}
 </style>
