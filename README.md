@@ -1,4 +1,4 @@
-# Spacey is an educational app to teach children & teens about the cosmos!
+# This digital orrery is an educational app to teach children & teens about the cosmos!
 
 Our solar system is beautiful and with this browser app both young and old can enjoy learning all about Sol, the planetary system we call home.
 
@@ -10,19 +10,19 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
-### Made using the following (languages and applications):
+### Created using the following technologies:
 
   *HTML*
 
   *CSS*
 
-  *JS*
+  *JavaScript*
 
-  *Vue*
+  *Vue.js*
 
   *MongoDB*
 
-  *Adobe*
+  *Adobe XD*
   
   *VS Code*
 
