@@ -23,6 +23,9 @@ import OrbitView from './components/OrbitView/OrbitView.vue';
 import PlanetService from './services/PlanetService.js';
 import PlanetListPage from './components/PlanetListPage.vue';
 import { eventBus } from '@/main.js';
+import firebase from '@/main.js';
+// import firebase from "./firebaseInit";
+// const db = firebase.firestore();
 
 export default {
   name: 'App',
@@ -47,8 +50,9 @@ export default {
   methods: {
     fetchSolarSystem() {
       PlanetService.getPlanets().then((solarSystem) => {
-        this.planets = solarSystem[0].planets;
-        this.sun = solarSystem[0].sun;
+        // solarSystem = firebase.database();
+        this.planets = solarSystem.planets;
+        this.sun = solarSystem.sun;
         });
     },
     toggleViewLinear: function() {

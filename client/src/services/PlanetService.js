@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:3000/api/solar_system/";
+const baseURL = "https://spacey-ca0c8-default-rtdb.europe-west1.firebasedatabase.app/0.json";
 
 export default {
     async getPlanets() {
