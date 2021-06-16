@@ -1,5 +1,8 @@
 <template>
-  <div class="solar-system-wrapper">
+  <div
+    class="solar-system-wrapper"
+    
+  >
     <div class="linear-view-info">
       <h1>Scale View</h1>
       <p>All planets and the Sun are to scale</p>
@@ -14,8 +17,7 @@
           width: this.calcWidth() + 'vw',
           height: this.calcWidth() + 'vw',
         }"
-      >
-      </div>
+      ></div>
       <planet-item v-for="planet in planets" :key="planet.id" :planet="planet" />
     </section>
   </div>
@@ -45,7 +47,13 @@ export default {
 
 <style>
 .solar-system-wrapper {
-  background: url(../../assets/background.jpg) fixed;
+  width: max-content;
+  background: url(../../assets/background.jpg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 #solar-system {
