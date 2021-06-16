@@ -7,7 +7,7 @@
       {{ planet.planet_intro }}
     </p>
 
-    <p>{{ planet.name }} has {{ planet.moons.moon_list.length == 0 ? 'no moon' : planet.moons.moon_list.length == 1 ? '1 moon' : planet.moons.moon_list.length + ' moons' }}</p>
+    <p>{{ planet.name }} has {{ planet.moons.moon_list[0] == "null" ? 'no moon' : planet.moons.moon_list.length == 1 ? '1 moon' : planet.moons.moon_list.length + ' moons' }}</p>
 
     <p>Distance from Sun: {{ planet.orbit_distance_km.toLocaleString() }} km ({{ planet.orbit_distance_au }} AU)</p>
     <p>Diameter at equator: {{ planet.equatorial_diameter_km.toLocaleString() }} km</p>

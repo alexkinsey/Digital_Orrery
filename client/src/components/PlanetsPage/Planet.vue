@@ -10,7 +10,7 @@
         <planet-fact :planetFacts="planet.facts" />
       </div>
     </div>
-    <div v-if="planet.moons.moon_list.length > 0">
+    <div v-if="planet.moons.moon_list[0] != 'null'">
       <h1 class="title">Significant Moons</h1>
       <sup>Click the arrow for more information</sup>
       <moon v-for="(moon, index) in planet.moons.sig_moons" :key="index" :moon="moon" />
