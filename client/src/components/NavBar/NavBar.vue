@@ -116,5 +116,10 @@ li:hover {
   #nav-bar * {
     align-self: center;
   }
+
+  .nav-bar-planet:hover #planet-list {
+  display: none;
+  z-index: 1;
+}
 }
 </style>
