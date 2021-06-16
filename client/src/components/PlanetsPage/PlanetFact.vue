@@ -51,7 +51,7 @@ h1 {
 }
 .next-fact-button:hover {
   background-color: rgb(122, 13, 13);
-  box-shadow: 0 0 2rem red;
+  /* box-shadow: 0 0 2rem red; */
 }
 .next-fact-button:active {
   background-color: rgb(255, 0, 0);
