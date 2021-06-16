@@ -113,4 +113,11 @@ header * {
 .component-fade-enter, .component-fade-leave-to {
   opacity: 0;
 }
+
+@media screen and (max-width: 480px) {
+  main {
+    position: absolute;
+    top: 4rem;
+  }
+}
 </style>

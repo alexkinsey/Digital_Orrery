@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="solar-system-wrapper"
-    
-  >
+  <div class="solar-system-wrapper">
     <div class="linear-view-info">
       <h1>Scale View</h1>
       <p>All planets and the Sun are to scale</p>

@@ -101,4 +101,20 @@ li:hover {
   display: block;
   z-index: 1;
 }
+
+@media screen and (max-width: 480px) {
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+    margin: auto 0;
+
+    height: auto;
+  }
+
+  #nav-bar * {
+    align-self: center;
+  }
+}
 </style>
