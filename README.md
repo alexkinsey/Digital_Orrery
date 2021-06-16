@@ -4,6 +4,9 @@ Our solar system is beautiful and with this browser app both young and old can e
 
 With facts, stats, pictures and a viewer of the planets in motion around the sun based on real distance and speed calculations, we at *Team Planeteers* hope you enjoy it!
 
+To check out this project visit:
+https://spacey-ca0c8.web.app
+
 -----------------------------------------------------------------------------
 
 ![alt text](https://raw.githubusercontent.com/alexkinsey/spacey/main/client/src/assets/screenshot.png "Screenshot")
